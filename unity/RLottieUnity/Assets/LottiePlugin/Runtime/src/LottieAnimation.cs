@@ -109,7 +109,7 @@ namespace LottiePlugin
                 (int)_lottieRenderData.width,
                 (int)_lottieRenderData.height,
                 TextureFormat.BGRA32,
-                0,
+                -1,
                 false);
             _pixelData = Texture.GetRawTextureData<byte>();
             _lottieRenderData.buffer = _pixelData.GetUnsafePtr();
